@@ -1,0 +1,2 @@
+&Send get url get?foo1=bar1&foo2=bar2
+ÎReceive: {"args":{"foo1":"bar1","foo2":"bar2"},"headers":{"x-forwarded-proto":"https","host":"postman-echo.com","x-forwarded-port":"443","content-type":"application\/json","accept":"text\/html, image\/gif, image\/jpeg, *; q=.2, *\/*; q=.2","user-agent":"Java\/1.8.0_202"},"url":"https:\/\/postman-echo.com\/get?foo1=bar1&foo2=bar2"}

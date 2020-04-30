@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIClientTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-30T14:23:10" hostname="SARCLI-B116" time="0.749">
+  <properties/>
+  <testcase name="apiShouldGet" classname="APIClientTest" time="0.749"/>
+  <system-out><![CDATA[Send get url get?foo1=bar1&foo2=bar2
+Receive: {"args":{"foo1":"bar1","foo2":"bar2"},"headers":{"x-forwarded-proto":"https","host":"postman-echo.com","x-forwarded-port":"443","content-type":"application\/json","accept":"text\/html, image\/gif, image\/jpeg, *; q=.2, *\/*; q=.2","user-agent":"Java\/1.8.0_202"},"url":"https:\/\/postman-echo.com\/get?foo1=bar1&foo2=bar2"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
